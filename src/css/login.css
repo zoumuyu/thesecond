@@ -1,0 +1,196 @@
+body {
+    background: #f9f9f9;
+}
+.header {
+    width: 100%;
+    background: #fff;
+}
+.site-header {
+    height: 100px;
+    background: #fff;
+}
+.wr1002{
+    width: 1002px;
+    margin: 0 auto;
+}
+.logo {
+    padding: 39px 0 37px;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #666;
+    transition-duration: .3s;
+}
+img {
+    vertical-align: middle;
+}
+.l-t-w {
+    width: 210px;
+    margin: 30px 0 0 20px;
+}
+.col-nine {
+    color: #999;
+}
+.col-black {
+    color: #000;
+}
+.l-t-w1 {
+    width: 175px;
+    margin: 30px 0 0 20px;
+}
+/* 登录 */
+.login {
+    margin: 90px auto;
+}
+.login-txt {
+    width: 268px;
+    padding: 20px 41px;
+    border: 1px solid #eaeaea;
+}
+.bg-white {
+    background-color: #fff;
+}
+.tab {
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.tab .active {
+    color: #333333;
+}
+.tab i {
+    border-left: 1px solid #979797;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    width: 2px;
+    margin: 0 25px 0;
+    float: left;
+    top: 5px;
+}
+.tab h3 {
+    float: left;
+    font-size: 18px;
+    cursor: pointer;
+    color: #999999;
+}
+div {
+    display: block;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.pr {
+    position: relative;
+}
+.l-input {
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 48px;
+}
+.l-i-icon.l-size { 
+    background-size: 20px 18px;
+}
+.l-i-icon {
+    left: 0;
+    top: 3px;
+    width: 37px;
+    height: 31px;
+    border-right: 1px solid #ccc;
+    background: url(../../image/l-icon4.png) no-repeat center;
+}
+.pa {
+    position: absolute;
+}
+.mt15 {
+    margin-top: 15px;
+}
+.to-i {
+    border: 1px solid #c5cddb;
+    transition-duration: .3s;
+}
+.l-input {
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+}
+.ks {
+    width: 89px;
+    height: 35px;
+    position: absolute;
+    border: 0px;
+    right: -1px;
+    border-left: 1px solid #ccc;
+    top: 1px;
+    font-size: 12px;
+    color: #333333;
+    background-color: #EEEEEE;
+    line-height: 33px;
+    text-align: center;
+}
+/* 如果没有收到验证码 */
+.gray {
+    color: #999;
+    font-size: 12px;
+}
+.yycode {
+    color: #118bce;
+    cursor: pointer;
+    padding-left: 8px;
+}
+.mt10 {
+    margin-top: 10px;
+    
+}
+.l-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #118bce;
+    border:none;
+}
+.col-white {
+    color: #fff;
+}
+/* 底部 */
+.footer.f-mt {
+    bottom: 0;
+    width: 100%;
+}
+.center {
+    text-align: center;
+}
+.bg-white {
+    background-color: #fff;
+}
+.footer.f-mt .f-info {
+    padding: 25px 0 10px 0px;
+}
+.f-i-txt a {
+    padding: 0 20px;
+}
+.f-i-txt span {
+    color: #bbb;
+}
+.ptb21 {
+    padding: 21px 0;
+}
+.col-six {
+    color: #666;
+}
+/* 密码登录 */
+.l-two-i {
+    width: 18px;
+    height: 19px;
+    background: url(../../image/qq.png) no-repeat;
+    display: inline-block;
+    margin: 0 11px;
+}
+.col-e {
+    color: #eaeaea;
+}
+.l-two-i.l-qq {
+    width: 20px;
+    height: 17px;
+    background: url(../../image/wechat.png) no-repeat;
+}

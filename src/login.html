@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- 页面头部 -->
+    <div class="header">
+        <div class="site-header wr1002 clear">
+            <div class="fl logo">
+                <a href="/Home/Index/index/active/1">
+                    <img src="https://img.shoprobam.com/Public/pcnew_xb/img/logo_40.png" width="280px">
+                </a>
+            </div>
+            <div class="fr l-three-i">
+                <div class="l-t-w fl f14">
+                    <div class="fl">
+                        <img src="https://img.shoprobam.com/Public/bossnew/images/l-icon1.png" width="42">
+                    </div>
+                    <div class="fr col-nine">
+                        <h3 class="col-black">全国联保</h3>6000家服务网点联合质保
+                    </div>
+                </div>
+                <div class="l-t-w fl f14">
+                    <div class="fl">
+                        <img src="https://img.shoprobam.com/Public/bossnew/images/f-icon6-blue.png" width="42">
+                    </div>
+                    <div class="fl col-nine" style="padding-left:10px;">
+                        <h3 class="col-black">100%免费配送</h3>承诺送货到户
+                    </div>
+                </div>
+                <div class="l-t-w1 fl f14">
+                    <div class="fl">
+                        <img src="https://img.shoprobam.com/Public/bossnew/images/f-icon4-blue.png" width="42">
+                    </div>
+                    <div class="fl col-nine" style="padding-left:10px;">
+                        <h3 class="col-black">15天无理由退货</h3>质量保证 售后无忧
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div class="main" style="padding-bottom:100px;">
+        <form method="post" id="myForm">
+            <div class="login wr1002 clear">
+                <!-- 左侧图片 -->
+                <div class="login-img fl">
+                    <a href="https://www.shoprobam.com/Index/showThisHtml?html=new-Mall-2" target="_blank">
+                        <img src="http://pxck94x9c.bkt.clouddn.com/banner5d70554c0e2c9.jpg" style="max-width:650px;height: 371px;">
+                    </a>
+                </div>
+                <div class="login-txt fl bg-white" style="min-height: 330px;">
+                    <div class="tab">
+                        <h3 class="active">快捷登录</h3><i></i>
+                        <h3>账号登录</h3>
+                    </div>
+                    <!-- 快速登录 -->
+                    <div class="tabs">
+                        <!-- 手机号码验证 -->
+                        <div class="log-input mt20 pr">
+                            <input type="text" class="l-input to-i" name="m_name" placeholder="请输入手机号">
+                            <div class="l-i-icon pa l-size"></div>
+                        </div>
+                        <!-- 验证码 -->
+                        <div class="tab0">
+                            <div class="log-input mt15 pr clear">
+                                <input type="text" name="captcha" maxlength="4" class="l-input to-i l-i-w1 fl"
+                                    value="请输入短信验证码" onblur="if(this.value==''){this.value='请输入短信验证码'}"
+                                    onfocus="if(this.value=='请输入短信验证码'){this.value=''}"
+                                    style="padding-left: 8px;padding-right: 40px;">
+                                <div class="l-btn1 fr col-blue ks">获取验证码</div>
+                            </div>
+                            <div class="mt15 gray" style="display:none">如果您没有收到短信验证码
+                                <span class="yycode" onclick="get_captcha('quick_login','voice')">获取语音验证码</span>
+                            </div>
+                        </div>
+                        <!-- 密码 -->
+                        <!-- <div class="log-input mt15 pr">
+                            <input name="m_password" id="m_password" type="password" class="l-input to-i"
+                                placeholder="请输入密码" autocomplete="off">
+                            <div class="l-i-icon pa l-i-1 l-size">
+
+                            </div>
+                        </div> -->
+                        <!-- 登录按钮 -->
+                        <div class="mt10">
+                            <input class="l-btn f18 col-white" type="button" value="登  录">
+                        </div>
+                        <div class="mt15 gray tab0">
+                            未注册的手机号，登录时将自动注册，且代表您已同意
+                            <a href="/Home/Article/articleDetail/aid/73" target="_blank">
+                                <span class="yycode">《注册协议》</span>
+                            </a>
+                        </div>
+                        <!-- 密码登陆时 -->
+                        <!-- <div class="tab2" style="display: block;">
+                            <div class="mt10 center col-nine">没有老板账号？
+                                <a href="" class="col-blue"
+                                    onclick="_hmt.push(['_trackEvent', 'PC注册', '点击'])">立即免费注册&gt;&gt;</a>
+                            </div>
+                            <div class="mt20 col-nine">
+                                <span class="middle">快速登录：</span>
+                                <a href="https://graph.qq.com/oauth2.0/authorize?client_id=101223829&amp;response_type=code&amp;redirect_uri=http%3A%2F%2Fwww.shoprobam.com%2FHome%2FUser%2FgetToken%3Ftype%3Dqq"
+                                    target="_blank" class="l-two-i middle"></a>
+                                <span class="middle col-e">|</span>
+                                <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx3853912dae57e9f5&amp;redirect_uri=http%3A%2F%2Fwww.shoprobam.com%2FHome%2FUser%2FgetToken%3Ftype%3Dwx&amp;response_type=code&amp;scope=snsapi_login&amp;state=STATE#wechat_redirect"
+                                    target="_blank" class="l-two-i l-qq middle">
+                                </a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- 底部 -->
+    <div class="footer bg-white f-mt">
+        <div class="f-info center" style="margin-top: 0;">
+            <div class="f-i-txt f14">
+                <a href="/Home/Article/articleDetail/aid/29">关于老板电器</a>
+                <span>|</span>
+                <a href="/Home/Article/articleDetail/aid/30">版权说明</a>
+                <span>|</span>
+                <a href="/Home/Article/articleDetail/aid/33">联系我们</a>
+                <span>|</span>
+                <a href="/Home/Article/articleDetail/aid/72">友情链接</a>
+            </div>
+            <div class="ptb21 col-six">浙ICP备05008711号-8 版权所有 杭州老板电器股份有限公司 </div>
+        </div>
+    </div>
+</body>
+
+</html>

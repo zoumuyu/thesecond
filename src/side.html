@@ -1,0 +1,61 @@
+<ul class="left-flexed minwidth" style="top:65%">
+    <li class="sign-li" onclick="onsign()" id="bd_sign" style="border-top:0px">
+        <a href="javascript:;">
+            <span class="img ico1"></span>
+            <p>签到送积分</p>
+        </a>
+        <div class="sign-li-boxb" style="display: none;">
+            <div class="fonts">每日签到积分<br>商城兑换好礼</div>
+            <a href="" class="llink">积分商城</a>
+        </div>
+    </li>
+    <li class="scrob" id="bd_kefu">
+        <a href="javascript:;">
+            <span class="img ico4"></span>
+            <p>联系客服</p>
+            <div class="gotalk-alert_ss alert_ss online_servicer" style="display: none;">
+                <div class="rignb">
+                    <span>售前咨询</span>
+                    <span class="skin-color">0571-89170693</span><span>售后咨询</span>
+                    <span class="skin-color">0571-89170691</span><span>服务时间</span>
+                    <span class="skin-color">8:00 - 24:00</span><span class="skin-btn">点击咨询</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li class="shopping">
+        <a href="javascript:;">
+            <span class="img ico3"></span>
+            <p>微信商城</p>
+            <div class="erw-box" style="display: none;">
+                <img src="https://img.shoprobam.com/Public/pcnew_xb/svg/right08.svg" alt="" class="pic">
+                <h2>扫描二维码</h2>
+                <h2>进入微信商城</h2>
+            </div>
+        </a>
+    </li>
+    <li id="bd_leftmycart" style="display:none">
+        <!-- 当购物车中有产品时，添加red类 -->
+        <a href="">
+            <span class="img ico2"></span>
+            <p>购物车</p>
+        </a>
+    </li>
+    <li class="scrolltt">
+        <a href="javascript:;">
+            <span class="img ico5"></span>
+            <p>返回顶部</p>
+        </a>
+    </li>
+</ul>
+<script>
+ $(function () {
+        $(".scrolltt").click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            },
+                1000);
+            return false;
+        });
+    });
+</script>

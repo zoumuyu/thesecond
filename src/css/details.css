@@ -1,0 +1,589 @@
+.wr1225 {
+    width: 1225px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ /* 详情页标题  */
+.navshow{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    background: #F5F5F5;
+}
+.navshow a {
+    color: #666;
+}
+.navshow span {
+    margin: 0 10px 0 10px;
+}
+/* 主体 */
+.goldmain {
+    width: 100%;
+    background: #fff;
+    padding: 20px 0 0 0;
+}
+.golds-show {
+    float: left;
+    width: 500px;
+    position: relative;
+}
+#spic {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #F0F0F0;
+    position: relative;
+    display: table;
+    z-index: 1;
+}
+#spic a {
+    width: 500px;
+    height: 500px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#spic .ks-imagezoom-wrap {
+    margin: -1px 0 0 -1px;
+}
+#spic img {
+    width: 100%;
+    height: 100%;
+    /* vertical-align: middle; */
+}
+.pic-list {
+    width: 500px;
+    height: 80px;
+    padding: 20px 0 0 0;
+}
+/* 小放大镜 */
+#sf {
+    width: 315px;
+    height: 315px;
+    background: rgba(84,194,255,0.30);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+/* 大放大镜 */
+#bf {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    left: 510px;
+    top: 0;
+    z-index: 1000;
+    visibility: hidden;
+}
+/* 大图 */
+#bf img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+}
+
+
+/* 左按钮 */
+.pic-list .btn-left {
+    width: 18px;
+    height: 30px;
+    float: left;
+    margin-top: 20px;
+}
+/* 小图列表 */
+.pic-view {
+    width: 430px;
+    height: 82px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 22px;
+}
+.pic-view ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.pic-view ul li {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #F0F0F0;
+    margin: 0 4px 0 0;
+}
+.pic-view ul li img {
+    width: 100%;
+    height: 100%;
+}
+/* 右边按钮 */
+.pic-list .btn-right {
+    width: 18px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+}
+
+
+/* 右边描述 */
+.golds-description {
+    float: left;
+    width: 690px;
+    padding: 0 0 40px 35px;
+}
+.golds-description h3 {
+    font-size: 20px;
+    color: #333;
+    line-height: 25px;
+    font-weight: normal;
+}
+.golds-description .golds-remark {
+    font-size: 12px;
+    color: #CC0000;
+    padding: 10px 0 15px 0;
+    line-height: 15px;
+}
+/* 抢购 */
+.golds-description .timelimit {
+    width: 690px;
+    height: 40px;
+    background: #D51B44;
+}
+.golds-description .timelimit .timelimit-btn {
+    width: 80px;
+    height: 25px;
+    float: left;
+    background: #FFEF57;
+    border-radius: 100px;
+    margin: 8px 21px 7px 20px;
+    font-size: 14px;
+    color: #D51B44;
+    text-align: center;
+    line-height: 25px;
+}
+.golds-description .timelimit .limittime {
+    float: left;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+.golds-description .timelimit a {
+    float: right;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin: 0 30px 0 0;
+    font-weight: bold;
+}
+/* 型号 */
+.golds-description .promotion {
+    padding: 15px 0 28px 20px;
+    border-top: 1px dashed #E0E0E0;
+    background: #F9F9FA;
+}
+.golds-description .promotion .promotion-price {
+    line-height: 30px;
+}
+.golds-description .promotion .promotion-price .price-text {
+    font-size: 12px;
+    color: #999999;
+    vertical-align: middle;
+    width: 96px;
+    display: inline-block;
+}
+.golds-description .promotion .promotion-price .oldprice {
+    font-size: 24px;
+    color: #CC0000;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+}
+.promotion-newprice .newprice{
+    color: #CC0000;
+}
+/* 正在促销 */
+.golds-description .promotion .gifts {
+    padding: 20px 0 0 0;
+    width: 100%;
+}
+
+.golds-description .promotion .gifts-left {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+}
+.golds-description .promotion .gifts-left p {
+    background: #007ABE;
+    color: #FFFFFF;
+    text-align: center;
+    width: 48px;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    margin: 10px 0 0 0;
+}
+/* 小图 */
+.golds-description .promotion .gifts-right {
+    float: left;
+    margin: 0 0 0 50px;
+    width: 572px;
+}
+
+.golds-description .promotion .kind {
+    float: left;
+    margin: 0 22px 20px 0;
+}
+.golds-description .promotion .kind .kind-img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #E0E0E0;
+    margin: 0 12px 0 0;
+    position: relative;
+}
+.golds-description .promotion .kind .kind-img img {
+    width: 100%;
+}
+.golds-description .promotion .kind .kind-img .zhanshi {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: -305px;
+    top: 0;
+    display: none;
+    z-index: 100;
+}
+.golds-description .promotion .kind .kind-title {
+    float: left;
+}
+.golds-description .promotion .kind .kind-title p {
+    font-size: 12px;
+    color: #333333;
+    padding: 0;
+    line-height: 18px;
+}
+.golds-description .promotion .kind .kind-title p.num {
+    color: #999999;
+}
+
+/* 悬浮 */
+.golds-description .promotion .kind:hover .zhanshi{
+    display:block;
+}
+
+/* 送积分 */
+.golds-description .promotion .integral .integral-left {
+    width: 48px;
+    height: 20px;
+    float: left;
+    background: #007ABE;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-right: 52px;
+}
+.golds-description .promotion .integral .integral-right {
+    float: left;
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px;
+}
+.golds-description .promotion .integral .integral-right span {
+    color: #CC0000;
+}
+.integral{
+    position: relative;
+}
+.pointDiv {
+    position: absolute;
+    top: 0px;
+    left: 228px;
+}
+.integral .whatPoint {
+    width: 450px;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 998;
+    left: -20px;
+    top: 25px;
+    box-shadow: 0px 0px 8px #ccc;
+    display: none;
+}
+.integral .whatPoint b {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    padding-top: 26px;
+    display: block;
+}
+.integral .whatPoint p {
+    color: #666;
+    width: 410px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 25px;
+}
+.golds-description p {
+padding: 10px 0 15px 0;
+}
+.pointDiv:hover .whatPoint{
+    display:block;
+}
+/* 客户 */
+.golds-description .evaluation {
+    padding: 5px 0;
+    border-top: 1px dashed #E0E0E0;
+    border-bottom: 1px dashed #E0E0E0;
+    width: 100%;
+}
+.golds-description .evaluation .client {
+    float: left;
+    color: #999999;
+    font-size: 12px;
+    padding: 0 40px;
+    line-height: 26px;
+}
+.golds-description .evaluation .client span {
+    margin: 0 0 0 10px;
+}
+.golds-description .evaluation .client span img {
+    margin: 0 3px;
+    width: 12px;
+    vertical-align: middle;
+}
+.golds-description .evaluation .hotcakes {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    padding: 0 84px;
+    border-left: 1px dashed #E0E0E0;
+    line-height: 26px;
+}
+.golds-description .evaluation .hotcakes span {
+    color: #CC0000;
+    margin: 0 0 0 5px;
+}
+
+
+
+/* 数量 */
+.golds-description .typesof .optionnums {
+    padding: 14px 0 0 0;
+    width: 100%;
+}
+.golds-description .typesof .optionnums .optionnums-title {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    margin: 0 74px 0 20px;
+    line-height: 37px;
+}
+.golds-description .typesof .optionnums .optionnums-add {
+    float: left;
+}
+.golds-description .typesof .optionnums .optionnums-add div {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #E0E0E0;
+}
+.golds-description .typesof .optionnums .optionnums-add div span {
+    float: left;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.golds-description .typesof .optionnums .optionnums-add div input {
+    float: left;
+    width: 40px;
+    height: 35px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    line-height: 35px;
+}
+/* 花呗分期 */
+.golds-description .typesof .staging {
+    padding: 14px 0 0 0;
+    width: 100%;
+}
+.golds-description .typesof .staging .staging-title {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    margin: 0 50px 0 20px;
+    line-height: 35px;
+}
+.golds-description .typesof .staging .stagingpotion {
+    float: left;
+}
+.golds-description .typesof .staging .stagingpotion .staging-top span {
+    float: left;
+    border: 1px solid #E0E0E0;
+    width: 120px;
+    height: 55px;
+    margin: 0 16px 0 0;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 5px 0 0 0;
+    cursor: pointer;
+}
+.golds-description .typesof .staging .stagingpotion .staging-top span i {
+    font-weight: bold;
+}
+/* 加入购物车 */
+.golds-description .typesof .staging {
+    padding: 14px 0 0 0;
+    width: 100%;
+}
+.golds-description .typesof .staging .staging-title {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    margin: 0 50px 0 20px;
+    line-height: 35px;
+}
+.golds-description .typesof .staging .stagingpotion {
+    float: left;
+}
+.golds-description .typesof .staging .stagingpotion .staging-but {
+    padding: 20px 0 0 0;
+}
+.golds-description .typesof .staging .stagingpotion .staging-but a {
+    float: left;
+    width: 180px;
+    height: 45px;
+    background: #CC0000;
+    margin: 0 15px 0 0;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+}
+.golds-description .typesof .staging .stagingpotion .staging-but a.color {
+    background: #007ABE;
+}
+.golds-description .typesof .committed {
+    padding: 20px 0 0 0;
+}
+.golds-description .typesof .committed .committed-title {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    margin: 0 50px 0 20px;
+    line-height: 18px;
+}
+.golds-description .typesof .committed .committedoption {
+    float: left;
+    line-height: 18px;
+}
+.golds-description .typesof .committed .committedoption span {
+    font-size: 12px;
+    color: #333333;
+    margin: 0 30px 0 0;
+    float: left;
+}
+/* 商品介绍 */
+/* 标题 */
+.content .content-title {
+    width: 100%;
+    height: 51px;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    background: #FFFFFF;
+    z-index: 999;
+}
+
+/* 拖拽后 */
+
+.content .content-title .particulars {
+    float: left;
+}
+
+.content .content-title .particulars span {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+    margin: 0 60px 0 0;
+    cursor: pointer;
+}
+/* 立即购买 */
+.content .content-title .output {
+    float: right;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #118ace;
+    font-size: 16px;
+    margin: 5px 0 0 17px;
+    display: none;
+    
+}
+.output a {
+    color: #fff;
+}
+/* 手机购买 */
+.content .content-title .parametericon {
+    float: right;
+    position: relative;
+    line-height: 51px;
+    cursor: pointer;
+}
+.content .content-title .parametericon img {
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333333;
+    margin: 0 0 0 11px;
+}
+/* 二级 */
+.content .content-title .parametericon .icon {
+    position: absolute;
+    left: -75px;
+    top: 35px;
+    display: none;
+    width: 120px;
+    height: 200px;
+    background: url(../../image/backgroundicon.png) no-repeat center center;
+    padding: 41px 35px 0;
+    text-align: center;
+    z-index: 10000;
+}
+canvas{
+    display: inline-block;
+    vertical-align: baseline;
+    background: url(http://pxck94x9c.bkt.clouddn.com/ma.png) no-repeat center center;
+}
+.content .content-title .parametericon .icon p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    margin: 10px 0 0 0;
+}
+
+.content .content-title .parametericon:hover .icon {
+    display: block;
+}
+.content-item div{
+    display: none;
+}
+.content-item .show{
+    display: block;
+
+}
+/* 点击之后 */
+.content .content-title .particulars .active{
+    border-bottom: 3px solid #007ABE;
+    color: #007ABE;
+}
+/* 详情图片介绍 */
+.content .goldscontent {
+    padding: 18px 0 0 0;
+}

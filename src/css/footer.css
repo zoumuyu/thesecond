@@ -1,0 +1,142 @@
+/* 页面底部主要css声明 */
+.footer2 {
+    padding: 43px 0 2px;
+    background: #fff;
+}
+.footer2-top {
+    padding: 0 59px 40px 23px;
+}
+.footer2-top dd {
+    float: left;
+    text-align: center;
+}
+.footer2-top dd a {
+    display: block;
+    width: 100%;
+}
+.footer2-top dd img {
+    position: relative;
+    top: 0;
+    height: 36px;
+    transition: top 0.3s;
+}
+
+.footer2-top dd p {
+    font-size: 16px;
+    color: #595757;
+    line-height: 27px;
+    margin-top: 17px;
+    transition: color 0.3s;
+}
+.footer2-top dd:hover img{
+    top:5px;
+    top:transparent;
+}
+.footer2-top dd:hover p{
+    color:#2688c7;
+   
+}
+.footer2-center {
+    padding: 62px 0;
+    border-top: 1px solid #d4d4d5;
+    border-bottom: 1px solid #f4f4f4;
+}
+.footer2-center .footer2-list {
+    width: 1000px;
+}
+.footer2-center .footer2-list li.li1 {
+    width: 120px;
+}
+.footer2-center .footer2-list li {
+    float: left;
+}
+.footer2-center .footer2-list h2 {
+    font-size: 14px;
+    color: #323333;
+    font-weight: bold;
+    line-height: 34px;
+    margin-bottom: 13px;
+}
+.footer2-center .footer2-list p {
+    font-size: 12px;
+    color: #7f7f80;
+    line-height: 24px;
+}
+.footer2-center .footer2-list a {
+    color: #7f7f80;
+}
+
+/* 右边盒子 */
+.footer2-center .footer-right {
+    width: 206px;
+    float: right;
+    text-align: center;
+    padding-top: 12px;
+}
+.footer2-center .footer-right h2 {
+    font-size: 24px;
+    color: #2688c7;
+    line-height: 29px;
+    font-weight: bold;
+}
+.footer2-center .footer-right p {
+    font-size: 12px;
+    color: #4d4d4d;
+    line-height: 21px;
+    margin-bottom: 9px;
+}
+.footer2-center .footer-right .link {
+    width: 102px;
+    height: 31px;
+    line-height: 31px;
+    padding-left: 19px;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+    background: #2688c7;
+}
+.footer2-center .footer-right .link i {
+    width: 16px;
+    height: 16px;
+    background: url(../../image/foot07.svg) no-repeat center;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 15px;
+}
+/* 底部的下面 */
+.footer2-bot {
+    border-top: 1px solid #dfdfdf;
+    padding: 19px 0;
+}
+.footer2-bot a {
+    float: left;
+    color: #717171;
+    font-size: 12px;
+    line-height: 22px;
+    transition: color 0.3s;
+}
+.footer2-bot i {
+    width: 1px;
+    height: 9px;
+    float: left;
+    display: block;
+    background: #717171;
+    margin: 0 12px;
+    margin-top: 7px;
+}
+.footer2-bot p {
+    float: left;
+    color: #717171;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 0 24px 0 28px;
+}
+.footer2-bot a.bf {
+    margin-right: 17px;
+}
+.footer2-bot a.bf img {
+    width: 47px;
+}
