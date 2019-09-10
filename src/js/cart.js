@@ -1,9 +1,9 @@
 $(document).ready(function () {
-
+	
     //1.渲染商品列表, 传入两个参数，一个id和数量，根据id和数量渲染整个可见的列表.
 	function goodslist(id,count){
 		$.ajax({ 
-            url:'http://localhost/js1907/the%20second/php/cart.php',//获取所有的接口数据
+            url:'http://localhost/js1907/thesecond/php/cart.php',//获取所有的接口数据
             
 			dataType:'json'
 		}).done(function(data){

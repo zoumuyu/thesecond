@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     // 获取元素对象
     function Banner() {
         this.$bannerlr = $('.bannerlr');
@@ -11,7 +12,7 @@ $(document).ready(function () {
     // banner图数据渲染
         Banner.prototype.init = function () {
             $.ajax({
-                url: 'http://localhost/js1907/the%20second/php/banner.php',
+                url: 'http://localhost/js1907/thesecond/php/banner.php',
                 dataType: 'json'
             }).done(function (data) {
                 var $html = '';
@@ -126,7 +127,7 @@ $(document).ready(function () {
     
     Directory.prototype.init = function () {
             $.ajax({
-                url: 'http://localhost/js1907/the%20second/php/list.php',
+                url: 'http://localhost/js1907/thesecond/php/list.php',
                 dataType: 'json'
             }).done(function (data) {
                 var $html = '';
@@ -156,7 +157,7 @@ $(document).ready(function () {
 
     Benefits.prototype.init = function () {
         $.ajax({
-            url: 'http://localhost/js1907/the%20second/php/bottom.php',
+            url: 'http://localhost/js1907/thesecond/php/bottom.php',
             dataType: 'json'
         }).done(function (data) {
             var $html = '';
@@ -182,14 +183,14 @@ $(document).ready(function () {
 
     Activity.prototype.init = function () {
         $.ajax({
-            url: 'http://localhost/js1907/the%20second/php/activity.php',
+            url: 'http://localhost/js1907/thesecond/php/activity.php',
             dataType: 'json'
         }).done(function (data) {
             var $html = '';
             $.each(data, function (index, value) {
                 $html += `
                 <li class="productTab picscale">
-                    <a href="http://localhost/js1907/the%20second/dist/details.html?sid=${value.sid}" target="_blank">
+                    <a href="http://localhost/js1907/thesecond/dist/details.html?sid=${value.sid}" target="_blank">
                         <div class="pic fl">
                             <img src="${value.url}" alt="">
                         </div>
@@ -218,7 +219,7 @@ $(document).ready(function () {
 
     Hotsale.prototype.init = function () {
         $.ajax({
-            url: 'http://localhost/js1907/the%20second/php/hot.php',
+            url: 'http://localhost/js1907/thesecond/php/hot.php',
             dataType: 'json'
         }).done(function (data) {
             var $html = '';

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    
     function Detail() {
         this.picid = location.search.substring(1).split('=')[1];
         this.$shows = $('.golds-show');
@@ -133,7 +133,7 @@ $(document).ready(function () {
 
     Detailpic.prototype.init = function () {
         $.ajax({
-            url: 'http://localhost/js1907/the%20second/php/introduce.php',
+            url: 'http://localhost/js1907/thesecond/php/introduce.php',
             dataType: 'json'
         }).done(function (data) {
             data.length = 3;
